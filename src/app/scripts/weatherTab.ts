@@ -17,9 +17,9 @@ interface mapLocation {
 // Changes for WeatherTab
 
 /**
- * Implementation of the Teams Build Tab content page
+ * Implementation of the WeatherTab content page
  */
-export class teamsBuildTabTab {
+export class weatherTab {
     /**
      * Constructor for teamsBuildTab that initializes the Microsoft Teams script and themes management
      */
