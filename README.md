@@ -9,11 +9,13 @@ The WeatherBuddy project, in turn, relies on the [OpenWeatherMap Font project](h
 ## Instructions
 
 * Create a Microsoft Teams app using the App Generator and add it to a Git repository (as was described in the session, and as these instructions assume).
-* Type the following in your project directory to merge this project with yours and to tweak your project.json file to support jQuery:
+* Type the following in your project directory to merge this project with yours, grab the OpenWeatherMap Font project, and to tweak your project.json file to support jQuery:
 ```
 git remote add weather https://github.com/billbliss/microsoft-teams-build2017-weather.git
 git fetch weather
 git merge --allow-unrelated-histories weather/master
+git submodule init
+git submodule update
 npm install --save @types/jquery
 ```
 Next, copy/paste the new HTML and TypeScript. Open `c:\dev\teamsbld-yourlastname` in your IDE (in Visual Studio Code, File -> Open Folder...). Expand the src/app/scripts and src/app/web folders; this is where the files you are going to modify are located. 
