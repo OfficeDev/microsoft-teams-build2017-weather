@@ -1,0 +1,3 @@
+[submodule "src/app/web/assets/owfont-master"]
+	path = src/app/web/assets/owfont-master
+	url = https://github.com/websygen/owfont.git

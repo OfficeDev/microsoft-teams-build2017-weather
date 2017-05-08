@@ -1,0 +1,192 @@
+body{
+  background-image: url('backg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.demo-card-wide.mdl-card {
+  width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
+  color: white;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+#titleblock{
+  position: absolute;
+  width: 512px;
+  height: 100px;
+  background-color: #626260;
+  text-align: center;
+
+  }
+#toptitle{
+  position: relative;
+  font-size: 50px;
+  top: 30px;
+}
+#subtitle{
+  position: relative;
+  top: 35px;
+  font-size: 25px;
+}
+#weathericon{
+  font-size: 200px;
+  margin-top: 100px;
+  color: #626260;
+}
+#weather{
+  color: #626260;
+  font-size: 70px;
+  font-weight: lighter;
+}
+#temp{
+  font-size:60px;
+  color: #626260;
+}
+#location{
+  margin-top: 25px;
+  font-size: 45px;
+  color: #626260;
+  font-weight: lighter;
+}
+
+@media (max-width: 700px){
+  #toptitle{
+    position: relative;
+    font-size: 45px;
+    top: 30px;
+  }
+#titleblock{
+    position: absolute;
+    width: 320px;
+    height: 100px;
+    background-color: #626260;
+    text-align: center;
+    }
+.demo-card-wide.mdl-card {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    color: white;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+  }
+}
+@media (max-height:600px){
+  .demo-card-wide.mdl-card {
+    width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    color: white;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+  }
+  #titleblock{
+    position: absolute;
+    width: 512px;
+    height: 100px;
+    background-color: #626260;
+    text-align: center;
+
+    }
+}
+@media (max-height:400px){
+  .demo-card-wide.mdl-card {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3px;
+    color: white;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+  }
+  #toptitle{
+    position: relative;
+    font-size: 35px;
+    top: 5px;
+  }
+  #titleblock{
+      position: absolute;
+      width: 300px;
+      height: 50px;
+      background-color: #626260;
+      text-align: center;
+      }
+      #subtitle{
+        position: relative;
+        top: -10px;
+        font-size: 20px;
+      }
+      #weathericon{
+        font-size: 100px;
+        margin-top: 28px;
+        color: #626260;
+      }
+      #weather{
+        color: #626260;
+        font-size: 45px;
+        font-weight: lighter;
+      }
+      #temp{
+        font-size:45px;
+        color: #626260;
+      }
+      #demo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: #626260;
+      }
+}
+@media (max-width: 360px){
+  #toptitle{
+    position: relative;
+    font-size: 35px;
+    top: 5px;
+  }
+  #subtitle{
+    position: relative;
+    top: 5px;
+    font-size: 25px;
+  }
+  #titleblock{
+      position: absolute;
+      width: 300px;
+      height: 80px;
+      background-color: #626260;
+      text-align: center;
+      }
+  .demo-card-wide.mdl-card {
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      top: 10px;
+      color: white;
+      opacity: 0.9;
+      filter: alpha(opacity=90);
+    }
+    #weathericon{
+      font-size: 100px;
+      margin-top: 70px;
+      color: #626260;
+    }
+    #weather{
+      color: #626260;
+      font-size: 45px;
+      font-weight: lighter;
+    }
+    #temp{
+      font-size:45px;
+      color: #626260;
+    }
+    #demo{
+      margin-top: 20px;
+      font-size: 30px;
+      color: #626260;
+    }
+
+}

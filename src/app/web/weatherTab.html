@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <meta charset="UTF-8">
+
+  <!-- BEGIN WeatherApp Changes -->
+  <!-- Adapted from WeatherApp by Ryan, aka needsMoreCoffee - https://github.com/needsMoreCoffee/weather_webapp_javascript -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Microsoft Teams Weather</title>
+  <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+  <link rel="stylesheet" href="assets/owfont-master/css/owfont-regular.css" type="text/css">
+  <!-- material design lite stuff next three lines -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+  <!-- theme -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.green-purple.min.css" />
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://code.getmdl.io/1.1.3/material.min.js'></script>
+  <!-- END WeatherApp Changes -->
+
+  <!-- inject:css -->
+  <!-- endinject -->
+</head>
+
+<body class="ts-middle">
+    <!-- BEGIN WeatherTab Changes -->
+    <!-- 
+    <div id='app'>
+        Loading...
+    </div>
+    -->
+    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div id = "titleblock">
+        <p id ="toptitle"><b>msteams</b> weather</p>
+        <p id = "subtitle">because we're kind of obsessed with it</p>
+        </div>
+        <div id = "cardcontents" class="mdl-card__supporting-text">
+            <center>
+                <i id = "weathericon" class ="owf owf-950"></i>
+                <p id = "weather">Loading</p>
+                <br>
+                <p id = "temp">...</p>
+                <p id = "location">...</p>
+            </center>
+        </div>  
+    </div>
+    <!-- END WeatherTab Changes -->
+    <script src="https://statics.teams.microsoft.com/sdk/v0.4/js/MicrosoftTeams.min.js"></script>
+    <!-- inject:js -->
+    <!-- endinject -->
+    <script type='text/javascript'>
+        var tab = new teamsbldYourLastName.weatherTab();
+        tab.doStuff();
+    </script>
+</body>
+
+</html>
