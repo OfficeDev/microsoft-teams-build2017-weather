@@ -1,3 +1,14 @@
+---
+topic: sample
+products:
+- Microsoft Teams
+- Office 365
+languages:
+- TypeScript
+extensions:
+  contentType: samples
+  createdDate: 5/8/2017 9:13:19 AM
+---
 # microsoft-teams-build2017-weather
 
 This project is intended to be merged with a project created by the Microsoft Teams App Generator (https://www.npmjs.com/package/generator-teams).
