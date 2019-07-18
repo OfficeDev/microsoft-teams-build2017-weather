@@ -1,10 +1,10 @@
 ---
 topic: sample
 products:
-- Microsoft Teams
-- Office 365
+- office-teams
+- office-365
 languages:
-- TypeScript
+- typescript
 extensions:
   contentType: samples
   createdDate: 5/8/2017 9:13:19 AM
