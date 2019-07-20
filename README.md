@@ -5,10 +5,14 @@ products:
 - office-365
 languages:
 - typescript
+urlFragment: microsoft-teams-build2017-weather
+description: "This project was inspired by, and ported to TypeScript from, the WeatherBuddy project."
+name: "Microsoft Teams - Weather Bot"
 extensions:
   contentType: samples
   createdDate: 5/8/2017 9:13:19 AM
 ---
+
 # microsoft-teams-build2017-weather
 
 This project is intended to be merged with a project created by the Microsoft Teams App Generator (https://www.npmjs.com/package/generator-teams).
